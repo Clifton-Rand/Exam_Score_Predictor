@@ -422,21 +422,21 @@ Reach out to Abishek on Slack if you have any questions or get stuck!
 
 > **Important:** This section is the first thing visitors see when they land on your GitHub repo. This is your portfolio—make it professional and complete! Update this before your final submission.
 
-**Student Name:** [Your Name]
+**Student Name:** Clifton Rand
 
-**Dataset:** [Dataset name and source - include a link if from Kaggle]
+**Dataset:** https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset
 
 **Problem Statement:** [What are you trying to predict and why? Write 2-3 sentences explaining the value of this prediction.]
 
-**Target Variable:** [Column name - e.g., "price" or "salary"]
+**Target Variable:** Exam_score
 
 **Selected Features:** [List the 4-8 features your final model uses]
 
-**Best Regression Model:** [Model type and key metric - e.g., "Random Forest (R² = 0.82)"]
+**Best Regression Model:** Liner Regression
 
-**Best Classification Model:** [Model type and key metric - e.g., "Gradient Boosting (Accuracy = 85%)"]
+**Best Classification Model:** Linear Regression
 
-**Deployed App URL:** [Add your Streamlit Cloud URL once deployed]
+**Deployed App URL:** https://examscore-predictor.streamlit.app/
 
 ### Project Highlights
 
