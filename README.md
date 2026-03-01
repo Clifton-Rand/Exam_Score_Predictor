@@ -426,11 +426,11 @@ Reach out to Abishek on Slack if you have any questions or get stuck!
 
 **Dataset:** https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset
 
-**Problem Statement:** [What are you trying to predict and why? Write 2-3 sentences explaining the value of this prediction.]
+**Problem Statement:** I am trying to predict the a exam score based on sleep and class attendance.  
 
 **Target Variable:** Exam_score
 
-**Selected Features:** [List the 4-8 features your final model uses]
+**Selected Features:** study_hours, sleep_hours, class_attendance, sleep_quality_good, sleep_quality_bad
 
 **Best Regression Model:** Liner Regression
 
