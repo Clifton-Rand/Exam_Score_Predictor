@@ -442,6 +442,5 @@ Reach out to Abishek on Slack if you have any questions or get stuck!
 
 [Write 2-3 bullet points about interesting findings or challenges you overcame. This helps employers understand your thought process!]
 
--
--
--
+-It was interesting that sleep quality did not play as much a part in the exam score as you would think.  
+-It was also surprising that even though linear regression came out on top, most of the other models were very close in scores and could have easily been substituted for linear regression model.  
