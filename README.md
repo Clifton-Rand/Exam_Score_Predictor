@@ -422,26 +422,25 @@ Reach out to Abishek on Slack if you have any questions or get stuck!
 
 > **Important:** This section is the first thing visitors see when they land on your GitHub repo. This is your portfolio—make it professional and complete! Update this before your final submission.
 
-**Student Name:** [Your Name]
+**Student Name:** Clifton Rand
 
-**Dataset:** [Dataset name and source - include a link if from Kaggle]
+**Dataset:** https://www.kaggle.com/datasets/kundanbedmutha/exam-score-prediction-dataset
 
-**Problem Statement:** [What are you trying to predict and why? Write 2-3 sentences explaining the value of this prediction.]
+**Problem Statement:** I am trying to predict the a exam score based on sleep and class attendance.  
 
-**Target Variable:** [Column name - e.g., "price" or "salary"]
+**Target Variable:** Exam_score
 
-**Selected Features:** [List the 4-8 features your final model uses]
+**Selected Features:** study_hours, sleep_hours, class_attendance, sleep_quality_good, sleep_quality_bad
 
-**Best Regression Model:** [Model type and key metric - e.g., "Random Forest (R² = 0.82)"]
+**Best Regression Model:** Liner Regression
 
-**Best Classification Model:** [Model type and key metric - e.g., "Gradient Boosting (Accuracy = 85%)"]
+**Best Classification Model:** Linear Regression
 
-**Deployed App URL:** [Add your Streamlit Cloud URL once deployed]
+**Deployed App URL:** https://examscore-predictor.streamlit.app/
 
 ### Project Highlights
 
 [Write 2-3 bullet points about interesting findings or challenges you overcame. This helps employers understand your thought process!]
 
--
--
--
+-It was interesting that sleep quality did not play as much a part in the exam score as you would think.  
+-It was also surprising that even though linear regression came out on top, most of the other models were very close in scores and could have easily been substituted for linear regression model.  
