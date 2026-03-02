@@ -21,8 +21,8 @@ WHAT YOU NEED TO CUSTOMIZE:
     3. Update the model paths if you changed them
     4. Customize the styling if desired
 
-Author: [Your Name]  # <-- UPDATE THIS!
-Dataset: [Your Dataset]  # <-- UPDATE THIS!
+Author: Clifton Rand  # <-- UPDATE THIS!
+Dataset: Exam_Score_Prediction.csv  # <-- UPDATE THIS!
 """
 
 import streamlit as st
@@ -36,7 +36,7 @@ from pathlib import Path
 # =============================================================================
 # This must be the first Streamlit command!
 st.set_page_config(
-    page_title="ML Prediction App",  # TODO: Update with your project name
+    page_title="Exam Score Prediction App",  # TODO: Update with your project name
     page_icon="🤖",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -121,8 +121,8 @@ st.sidebar.info(
     """
 )
 # TODO: UPDATE YOUR NAME HERE! This shows visitors who built this app.
-st.sidebar.markdown("**Built by:** [YOUR NAME]")
-st.sidebar.markdown("[GitHub Repo](https://github.com/YOUR-USERNAME/YOUR-REPO)")
+st.sidebar.markdown("**Built by:** Clifton Rand")
+st.sidebar.markdown("[GitHub Repo](https://github.com/Clifton-Rand/Exam_Score_Predictor)")
 
 
 # =============================================================================
@@ -149,13 +149,13 @@ if page == "🏠 Home":
     st.markdown("### About This Project")
     st.write(
         """
-        **Dataset:** [Describe your dataset]
+        **Dataset:** Exam_Score_Prediction.csv
 
-        **Problem Statement:** [What are you predicting and why?]
+        **Problem Statement:** I am predicting Exam Score based upon study hours and sleep numbers
 
         **Models Used:**
-        - Regression: [Your regression model type]
-        - Classification: [Your classification model type]
+        - Regression: Linear Regression
+        - Classification: Linear Regression
         """
     )
 
@@ -318,7 +318,7 @@ st.markdown("---")
 st.markdown(
     """
     <div style='text-align: center; color: gray;'>
-        Built by [YOUR NAME] | Full Stack Academy AI & ML Bootcamp
+        Built by Clifton Rand | Full Stack Academy AI & ML Bootcamp
     </div>
     """,
     unsafe_allow_html=True
