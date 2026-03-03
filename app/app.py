@@ -201,7 +201,7 @@ elif page == "📈 Regression Model":
             # Example: For a feature like 'bedrooms' you might use:
             # input_values[feature] = st.number_input(feature, min_value=0, max_value=10, value=3)
 
-            input_values[feature] = st.number_input(
+            input_values[feature] = st.st.slider(
                 label=feature,
                 value=0.0,  # Default value - UPDATE THIS
                 help=f"Enter value for {feature}"
