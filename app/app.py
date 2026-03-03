@@ -114,10 +114,10 @@ st.sidebar.markdown("---")
 st.sidebar.markdown("### About")
 st.sidebar.info(
     """
-    This app deploys machine learning models trained on [YOUR DATASET].
+    This app deploys machine learning models trained on Exam_Score_Prediction.csv.
 
-    - **Regression**: Predicts [YOUR TARGET]
-    - **Classification**: Predicts [YOUR CATEGORIES]
+    - **Regression**: Predicts Exam Score
+    - **Classification**: Predicts a High, Medium, or Low score
     """
 )
 # TODO: UPDATE YOUR NAME HERE! This shows visitors who built this app.
