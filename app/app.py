@@ -206,7 +206,7 @@ elif page == "📈 Regression Model":
             # TODO: Customize each input based on your feature type and range
             # Example: For a feature like 'bedrooms' you might use:
             # input_values[feature] = st.number_input(feature, min_value=0, max_value=10, value=3)
-
+            
             if feature == "study_hours":
                 input_values[feature] = st.slider(
                     "Study Hours",
@@ -311,15 +311,50 @@ elif page == "🏷️ Classification Model":
 
     input_values = {}
 
+    sleep_quality = st.selectbox(
+        "Sleep Quality",
+        options=["Poor", "Medium", "Good"],
+        index=0,
+        key="class_sleep_quality"
+    )
+
     for i, feature in enumerate(features):
         with col1 if i % 2 == 0 else col2:
             # TODO: Customize each input based on your feature type and range
-            input_values[feature] = st.number_input(
-                label=feature,
-                value=0.0,
-                key=f"class_{feature}",  # Unique key for classification inputs
-                help=f"Enter value for {feature}"
-            )
+            if feature == "study_hours":
+                input_values[feature] = st.slider(
+                    "Study Hours",
+                    min_value=0.0,
+                    max_value=8.0,
+                    value=4.0,
+                    step=0.1,
+                    key=f"class_{feature}"
+                )
+
+            elif feature == "class_attendance":
+                input_values[feature] = st.slider(
+                    "Class Attendance (%)",
+                    min_value=0,
+                    max_value=100,
+                    value=50,
+                    step=1,
+                    key=f"class_{feature}"
+                )
+
+            elif feature == "sleep_hours":
+                input_values[feature] = st.slider(
+                    "Sleep Hours",
+                    min_value=0.0,
+                    max_value=10.0,
+                    value=5.0,
+                    step=0.1,
+                    key=f"class_{feature}"
+                )
+            elif feature == "sleep_quality_poor":
+                input_values[feature] = 1 if sleep_quality == "Poor" else 0
+
+            elif feature == "sleep_quality_good":
+                input_values[feature] = 1 if sleep_quality == "Good" else 0
 
     st.markdown("---")
 
