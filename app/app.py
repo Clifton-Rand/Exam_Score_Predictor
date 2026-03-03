@@ -201,7 +201,7 @@ elif page == "📈 Regression Model":
             # Example: For a feature like 'bedrooms' you might use:
             # input_values[feature] = st.number_input(feature, min_value=0, max_value=10, value=3)
 
-            if feature == "Study_Hours":
+            if feature == "study_hours":
                 input_values[feature] = st.slider(
                     "Study Hours",
                     min_value=0,
@@ -210,7 +210,7 @@ elif page == "📈 Regression Model":
                     step=0.1
                 )
 
-            elif feature == "Class_Attendance":
+            elif feature == "class_attendance":
                 input_values[feature] = st.slider(
                     "Class Attendance (%)",
                     min_value=0,
@@ -219,7 +219,7 @@ elif page == "📈 Regression Model":
                     step=1
                 )
 
-            elif feature == "Sleep_Hours":
+            elif feature == "sleep_hours":
                 input_values[feature] = st.slider(
                     "Sleep Hours",
                     min_value=0,
