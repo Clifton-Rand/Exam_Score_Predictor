@@ -151,7 +151,7 @@ if page == "🏠 Home":
         """
         **Dataset:** Exam_Score_Prediction.csv
 
-        **Problem Statement:** I am predicting Exam Score based upon study hours and sleep numbers
+        **Problem Statement:** I am predicting Exam Score based upon study hours, class attendance, and sleep numbers
 
         **Models Used:**
         - Regression: Linear Regression
