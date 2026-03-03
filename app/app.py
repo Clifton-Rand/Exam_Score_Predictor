@@ -201,38 +201,38 @@ elif page == "📈 Regression Model":
             # Example: For a feature like 'bedrooms' you might use:
             # input_values[feature] = st.number_input(feature, min_value=0, max_value=10, value=3)
 
-if feature == "Study_Hours":
-    input_values[feature] = st.slider(
-        "Study Hours",
-        min_value=0,
-        max_value=8,
-        value=4,
-        step=0.1
-    )
+            if feature == "Study_Hours":
+                input_values[feature] = st.slider(
+                    "Study Hours",
+                    min_value=0,
+                    max_value=8,
+                    value=4,
+                    step=0.1
+                )
 
-elif feature == "Class_Attendance":
-    input_values[feature] = st.slider(
-        "Class Attendance (%)",
-        min_value=0,
-        max_value=100,
-        value=50,
-        step=1
-    )
+            elif feature == "Class_Attendance":
+                input_values[feature] = st.slider(
+                    "Class Attendance (%)",
+                    min_value=0,
+                    max_value=100,
+                    value=50,
+                    step=1
+                )
 
-elif feature == "Sleep_Hours":
-    input_values[feature] = st.slider(
-        "Sleep Hours",
-        min_value=0,
-        max_value=10,
-        value=5,
-        step=.1
-    )
+            elif feature == "Sleep_Hours":
+                input_values[feature] = st.slider(
+                    "Sleep Hours",
+                    min_value=0,
+                    max_value=10,
+                    value=5,
+                    step=.1
+                )
 
-else:
-    input_values[feature] = st.number_input(
-        label=feature,
-        value=0.0
-    )
+            else:
+                input_values[feature] = st.number_input(
+                    label=feature,
+                    value=0.0
+                )
 
 """
             input_values[feature] = st.number_input(
