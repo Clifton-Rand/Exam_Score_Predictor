@@ -155,7 +155,7 @@ if page == "🏠 Home":
 
         **Models Used:**
         - Regression: Linear Regression
-        - Classification: Linear Regression
+        - Classification: Logistic Regression
         """
     )
 
