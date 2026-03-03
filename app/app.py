@@ -234,13 +234,13 @@ elif page == "📈 Regression Model":
                     value=0.0
                 )
 
-"""
+            """
             input_values[feature] = st.number_input(
                 label=feature,
                 value=0.0,  # Default value - UPDATE THIS
                 help=f"Enter value for {feature}"
             )
-"""
+            """
     st.markdown("---")
 
     # Prediction button
