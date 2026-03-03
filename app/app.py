@@ -194,6 +194,12 @@ elif page == "📈 Regression Model":
 
     input_values = {}
 
+    sleep_quality = st.selectbox(
+    "Sleep Quality",
+    options=["Medium", "Poor", "Good"],  # Medium first is nice
+    index=0
+    )
+
     for i, feature in enumerate(features):
         # Alternate between columns
         with col1 if i % 2 == 0 else col2:
@@ -227,6 +233,12 @@ elif page == "📈 Regression Model":
                     value=5.0,
                     step=0.1
                 )
+
+            elif feature == "sleep_quality_poor":
+                input_values[feature] = 1 if sleep_quality == "Poor" else 0
+
+            elif feature == "sleep_quality_good":
+                input_values[feature] = 1 if sleep_quality == "Good" else 0
 
             else:
                 input_values[feature] = st.number_input(
