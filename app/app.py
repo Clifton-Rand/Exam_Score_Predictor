@@ -204,9 +204,9 @@ elif page == "📈 Regression Model":
             if feature == "study_hours":
                 input_values[feature] = st.slider(
                     "Study Hours",
-                    min_value=0,
-                    max_value=8,
-                    value=4,
+                    min_value=0.0,
+                    max_value=8.0,
+                    value=4.0,
                     step=0.1
                 )
 
@@ -222,10 +222,10 @@ elif page == "📈 Regression Model":
             elif feature == "sleep_hours":
                 input_values[feature] = st.slider(
                     "Sleep Hours",
-                    min_value=0,
-                    max_value=10,
-                    value=5,
-                    step=.1
+                    min_value=0.0,
+                    max_value=10.0,
+                    value=5.0,
+                    step=0.1
                 )
 
             else:
