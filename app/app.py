@@ -196,7 +196,7 @@ elif page == "📈 Regression Model":
 
     sleep_quality = st.selectbox(
     "Sleep Quality",
-    options=["Medium", "Poor", "Good"],  # Medium first is nice
+    options=["Poor", "Medium", "Good"],
     index=0
     )
 
@@ -245,6 +245,7 @@ elif page == "📈 Regression Model":
                     label=feature,
                     value=0.0
                 )
+
     st.markdown("---")
 
     # Prediction button
