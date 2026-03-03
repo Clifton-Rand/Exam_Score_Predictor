@@ -434,7 +434,7 @@ Reach out to Abishek on Slack if you have any questions or get stuck!
 
 **Best Regression Model:** Liner Regression
 
-**Best Classification Model:** Linear Regression
+**Best Classification Model:** Logistic Regression
 
 **Deployed App URL:** https://examscore-predictor.streamlit.app/
 
@@ -443,4 +443,4 @@ Reach out to Abishek on Slack if you have any questions or get stuck!
 [Write 2-3 bullet points about interesting findings or challenges you overcame. This helps employers understand your thought process!]
 
 -It was interesting that sleep quality did not play as much a part in the exam score as you would think.  
--It was also surprising that even though linear regression came out on top, most of the other models were very close in scores and could have easily been substituted for linear regression model.  
+-It was also surprising that even though the regression model came out on top, several of the other models were very close in scores and could have easily been substituted for the regression models.  In the future, I hope to expand this project and find a more accurate model.  
