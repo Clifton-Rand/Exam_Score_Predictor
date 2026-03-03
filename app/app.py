@@ -129,12 +129,12 @@ st.sidebar.markdown("[GitHub Repo](https://github.com/Clifton-Rand/Exam_Score_Pr
 # HOME PAGE
 # =============================================================================
 if page == "🏠 Home":
-    st.title("🤖 Machine Learning Prediction App")
+    st.title("🤖 Exam Score Prediction App")
     st.markdown("### Welcome!")
 
     st.write(
         """
-        This application allows you to make predictions using trained machine learning models.
+        This application allows you to make exam score predictions using trained machine learning models.
 
         **What you can do:**
         - 📈 **Regression Model**: Predict a numerical value
